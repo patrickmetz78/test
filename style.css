@@ -1,0 +1,105 @@
+body {
+  height: 100%;
+  background: linear-gradient(#f0f0f0, #b5b5b5);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.wrapper {
+  padding: 20px;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.graffiti .single-img img {
+  width: 350px;
+  height: 250px;
+  object-fit: cover;
+  object-position: center;
+  padding: 10px;
+}
+
+.malereien .single-img img {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  object-position: center;
+  padding: 10px;
+}
+
+.skulpturen .single-img img {
+  width: 400px;
+  height: 400px;
+  object-fit: fill;
+  object-position: center;
+  padding: 10px;
+}
+
+.graffiti,
+h3 {
+  display: flex;
+  font-weight: 200;
+  color: black;
+  justify-content: center;
+  max-width: 1200px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.malereien {
+  display: flex;
+  justify-content: center;
+  max-width: 1200px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.skulpturen {
+  display: flex;
+  justify-content: center;
+  max-width: 1200px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+img:hover {
+  cursor: pointer;
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+nav ul {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  list-style-type: none;
+  padding: 40px;
+}
+
+nav a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: grey;
+  font-size: 20px;
+  padding: 20px;
+  margin: 20px;
+}
+
+nav a:hover {
+  opacity: 0.5;
+  transition: 0.5s;
+  color: black;
+}
+
+footer {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: grey;
+  font-size: 20px;
+}
